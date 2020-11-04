@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var moveSpaces: UIPickerView!
+    
+    @IBOutlet weak var recentNumber: UIPickerView!
+    
+    @IBOutlet weak var leftNumbers: UILabel!
+    
+    @IBOutlet weak var rightNumbers: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
